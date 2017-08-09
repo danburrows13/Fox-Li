@@ -10,7 +10,7 @@ import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
 
-def Calculate_hn(L):
+def Calculate_hn(L = 101):
     
     """ Outputs vector h of odd length L := 2N + 1 of ratio hn = fn/gn, with 
     fn and gn Maclaurin coefficients of function f and g, analytic within a 
